@@ -1,0 +1,48 @@
+{
+  "experiment": "Additional random masking of 20% of originally observed PM2.5 input values in held-out test windows; missingness flags set; model unchanged.",
+  "masked_fraction_of_observed_test_inputs": 0.19863743125155003,
+  "metrics": [
+    {
+      "model": "WAGTF-Net +20% PM2.5 input missing",
+      "horizon_hours": 1,
+      "n": 11358,
+      "MAE": 17.875328063964844,
+      "RMSE": 35.74837634260908,
+      "R2": 0.840578019618988,
+      "event_F1": 0.9259057773909259,
+      "event_cut": 0.5399999999999999,
+      "event_cut_type": "probability",
+      "event_Brier": 0.04556252525023167,
+      "P10_P90_coverage": 0.684275400598697,
+      "P10_P90_width": 37.464481353759766
+    },
+    {
+      "model": "WAGTF-Net +20% PM2.5 input missing",
+      "horizon_hours": 6,
+      "n": 11376,
+      "MAE": 32.704105377197266,
+      "RMSE": 57.46492433908597,
+      "R2": 0.5900442004203796,
+      "event_F1": 0.8064952638700947,
+      "event_cut": 0.5399999999999999,
+      "event_cut_type": "probability",
+      "event_Brier": 0.11778679436458282,
+      "P10_P90_coverage": 0.7805907172995781,
+      "P10_P90_width": 92.0599365234375
+    },
+    {
+      "model": "WAGTF-Net +20% PM2.5 input missing",
+      "horizon_hours": 24,
+      "n": 11376,
+      "MAE": 53.453983306884766,
+      "RMSE": 79.90242768038246,
+      "R2": 0.20730745792388916,
+      "event_F1": 0.6653553408021894,
+      "event_cut": 0.4799999999999999,
+      "event_cut_type": "probability",
+      "event_Brier": 0.20595720269867163,
+      "P10_P90_coverage": 0.7950070323488045,
+      "P10_P90_width": 151.99456787109375
+    }
+  ]
+}

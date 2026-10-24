@@ -1,0 +1,1 @@
+`beijing_multi_site_air_quality.zip` is the original 7.8 MB download from the UCI Machine Learning Repository dataset page. The archive is redistributed under CC BY 4.0 with attribution to Song Chen (2017); see `../../docs/sources.md`.

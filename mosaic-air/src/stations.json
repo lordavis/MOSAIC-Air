@@ -1,0 +1,17 @@
+{
+  "source_note": "Approximate monitoring-site coordinates transcribed from station tables in published Beijing air-quality studies; see docs/sources.md.",
+  "stations": {
+    "Aotizhongxin": {"lat": 39.982, "lon": 116.397},
+    "Changping": {"lat": 40.217, "lon": 116.230},
+    "Dingling": {"lat": 40.292, "lon": 116.220},
+    "Dongsi": {"lat": 39.929, "lon": 116.417},
+    "Guanyuan": {"lat": 39.929, "lon": 116.339},
+    "Gucheng": {"lat": 39.914, "lon": 116.184},
+    "Huairou": {"lat": 40.328, "lon": 116.628},
+    "Nongzhanguan": {"lat": 39.937, "lon": 116.461},
+    "Shunyi": {"lat": 40.127, "lon": 116.655},
+    "Tiantan": {"lat": 39.886, "lon": 116.407},
+    "Wanliu": {"lat": 39.987, "lon": 116.287},
+    "Wanshouxigong": {"lat": 39.878, "lon": 116.352}
+  }
+}

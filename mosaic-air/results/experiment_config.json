@@ -1,0 +1,15 @@
+{
+  "seed": 23,
+  "lookback_hours": 24,
+  "horizons_hours": [
+    1,
+    6,
+    24
+  ],
+  "train_end": "2015-12-31 23:00",
+  "validation_end": "2016-06-30 23:00",
+  "test_start": "2016-07-01 00:00",
+  "episode_threshold_ug_m3": 75.0,
+  "additional_missingness_stress": "Randomly mask 20% of observed held-out PM2.5 input values; indicate mask explicitly; no retraining.",
+  "coordinate_note": "Approximate station coordinates from published literature; see docs/sources.md."
+}
